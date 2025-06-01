@@ -1,8 +1,8 @@
 
-const stripe = Stripe("pk_test_51RUo6XPet7MAMNceBluJLqAH1qV9MDLbsCg0DtjQ6QQ5q23mgWX5vJrCNSDfsjR1MfZ3eZXxKWkj4StREOHx5joE00WXMAZFOj");
+const stripe = Stripe("pk_test_51RUo6QB6DmJRVInbacgTDXRgyFScbvi9inJpObyns5iREBZkgRkJEmyGa0aZ46a4o3Op3Is8HDnGqFxLEVhciWSO00hxAYBaNA");
 
 document.getElementById("checkout-button").addEventListener("click", () => {
-  fetch("/create-checkout-session", {
+  fetch("https://myshop-1223.onrender.com/create-checkout-session", {
     method: "POST",
   })
     .then((res) => res.json())
