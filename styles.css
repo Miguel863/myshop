@@ -1,0 +1,39 @@
+
+body {
+    background-color: #121212;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #1e1e1e;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    max-width: 400px;
+    width: 100%;
+}
+button {
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #3700b3;
+}
+#message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #f44336;
+}
