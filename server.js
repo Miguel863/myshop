@@ -93,7 +93,7 @@ app.get("/", (req, res) => {
   res.send("Servidor activo. ¡Hola desde el backend!");
 });
 
-const PORT = process.env.PORT || 4242;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`🚀 Servidor corriendo en el puerto ${PORT}`);
 });
